@@ -1,4 +1,4 @@
-spring:
+§spring:
   application:
     name: edge-service
 server:

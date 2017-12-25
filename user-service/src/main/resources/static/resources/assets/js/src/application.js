@@ -84,11 +84,11 @@
     })();
 
     // Tooltip and popover demos
-    $('.tooltip-demo').tooltip({
+    $('.tooltip-sendam').tooltip({
       selector: '[data-toggle="tooltip"]',
       container: 'body'
     })
-    $('.popover-demo').popover({
+    $('.popover-sendam').popover({
       selector: '[data-toggle="popover"]',
       container: 'body'
     })
@@ -100,7 +100,7 @@
     // Popover demos
     $('.bs-docs-popover').popover()
 
-    // Button state demo
+    // Button state sendam
     $('#loading-example-btn').on('click', function () {
       var $btn = $(this)
       $btn.button('loading')
@@ -109,7 +109,7 @@
       }, 3000)
     })
 
-    // Modal relatedTarget demo
+    // Modal relatedTarget sendam
     $('#exampleModal').on('show.bs.modal', function (event) {
       var $button = $(event.relatedTarget)      // Button that triggered the modal
       var recipient = $button.data('whatever')  // Extract info from data-* attributes

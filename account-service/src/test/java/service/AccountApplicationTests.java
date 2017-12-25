@@ -1,13 +1,13 @@
 package service;
 
-import demo.AccountApplication;
-import demo.account.Account;
-import demo.address.Address;
-import demo.address.AddressType;
-import demo.creditcard.CreditCard;
-import demo.creditcard.CreditCardType;
-import demo.customer.Customer;
-import demo.customer.CustomerRepository;
+import sendam.AccountApplication;
+import sendam.account.Account;
+import sendam.address.Address;
+import sendam.address.AddressType;
+import sendam.creditcard.CreditCard;
+import sendam.creditcard.CreditCardType;
+import sendam.customer.Customer;
+import sendam.customer.CustomerRepository;
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
