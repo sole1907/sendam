@@ -13,9 +13,9 @@ public class User extends BaseEntity {
     private String firstName;
     private String lastName;
     private String email;
-    private String password;
+    /*private String password;
     private String passwordConfirm;
-    private Set<Role> roles;
+    private Set<Role> roles;*/
 
     public User() {
     }
@@ -86,7 +86,7 @@ public class User extends BaseEntity {
                 "} " + super.toString();
     }
 
-    public String getPassword() {
+    /*public String getPassword() {
         return password;
     }
 
@@ -111,5 +111,5 @@ public class User extends BaseEntity {
 
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
-    }
+    }*/
 }

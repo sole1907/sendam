@@ -21,7 +21,7 @@ public class UserController {
         return user;
     }
 
-    @Autowired
+    /*@Autowired
     private UserService userService;
 
     @Autowired
@@ -50,6 +50,6 @@ public class UserController {
         securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
 
         return "redirect:/welcome";
-    }
+    }*/
 
 }

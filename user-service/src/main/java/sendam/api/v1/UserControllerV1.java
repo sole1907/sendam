@@ -38,8 +38,7 @@ public class UserControllerV1 {
 
     @RequestMapping(path = "/register", method = RequestMethod.POST)
     public ResponseEntity register(@RequestBody User user) {
-        return Optional.ofNullable(user)
-                .map(a -> new ResponseEntity<User>(a, HttpStatus.OK))
-                .orElseThrow(() -> new UsernameNotFoundException("Username not found"));
+        assert user != null;
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 }

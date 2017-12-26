@@ -13,7 +13,7 @@ public class Role extends BaseEntity {
 
     private Long id;
     private String name;
-    private Set<User> users;
+    //private Set<User> users;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -33,13 +33,13 @@ public class Role extends BaseEntity {
         this.name = name;
     }
 
-    @ManyToMany(mappedBy = "roles")
+    /*@ManyToMany(mappedBy = "roles")
     public Set<User> getUsers() {
         return users;
     }
 
     public void setUsers(Set<User> users) {
         this.users = users;
-    }
+    }*/
 
 }
